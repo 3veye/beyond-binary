@@ -1,0 +1,20 @@
+﻿Beyond/Binary 1.1 release dev log
+
+
+Bugs- 
+* Release has some issues with working, due to tailoff not being implemented in currentSample calculation 
+* Slider hitbox occasionally overlaps with other sliders
+* Triangle and square waveshapes are missing
+
+
+Features-
+* Full adsr slider support
+* Internal midi support
+* External midi support (no gui present to switch but the code is there)
+* Waveshape swap support, current supported waveshapes are sine and saw
+
+
+Whats next?-
+* Implement other waveshapes 
+* Clean up gui
+* Add frequency slider and level sliders
